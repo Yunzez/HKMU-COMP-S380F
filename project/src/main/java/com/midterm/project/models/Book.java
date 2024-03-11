@@ -1,4 +1,4 @@
-package com.project.midterm.models;
+package com.midterm.project.models;
 
 public class Book {
     private Long id;

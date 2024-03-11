@@ -7,8 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/")
-
 public class HomeController {
    
     @GetMapping("/")
@@ -19,6 +17,7 @@ public class HomeController {
 
     @GetMapping("/ping")
     public String ping() {
+        System.out.println("pong");
         return "pong";
     }
 }

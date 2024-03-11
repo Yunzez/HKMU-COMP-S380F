@@ -1,11 +1,11 @@
-package com.project.midterm.controllers;
+package com.midterm.project.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.project.midterm.services.BookService;
+import com.midterm.project.services.BookService;
 
 
 @Controller
