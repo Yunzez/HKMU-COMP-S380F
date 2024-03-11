@@ -12,7 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
    
     @GetMapping("/")
-    public ModelAndView index() {
-        return new ModelAndView("index");
+    public String index() {
+        System.out.println("Hello from HomeController");
+        return "index";
+    }
+
+    @GetMapping("/ping")
+    public String ping() {
+        return "pong";
     }
 }
